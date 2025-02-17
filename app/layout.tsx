@@ -13,14 +13,14 @@ const inter = Inter({ subsets: ["latin"] });
 const baseUrlMeta = `${new URL("https://bayumaulanaikhsan.my.id/")}`;
 export const metadata = {
   metadataBase: new URL("https://bayumaulanaikhsan.my.id/"),
-  title: "Bayu Maulana Ikhsan | Portfolio",
+  title: "Berkat Selamat Daeli | Portfolio",
   description:
-    "Bayu Maulana Ikhsan is a web developer with 2 years of experience.",
-  author: "Bayu Maulana Ikhsan",
+    "Berkat Selamat Daeli is a web developer with 2 years of experience.",
+  author: "Berkat Selamat Daeli",
   subject: "Web Development",
-  copyright: "© Bayu Maulana Ikhsan",
+  copyright: "© Berkat Selamat Daeli",
   keywords: [
-    "Bayu Maulana Ikhsan",
+    "Berkat Selamat Daeli",
     "Next.js",
     "React",
     "JavaScript",
@@ -41,11 +41,11 @@ export const metadata = {
     "joki murah",
   ],
   generator: "Next.js",
-  applicationName: "Bayu Maulana Ikhsan | Portfolio",
+  applicationName: "Berkat Selamat Daeli | Portfolio",
   referrer: "origin-when-cross-origin",
   colorScheme: "dark",
-  creator: "Bayu Maulana Ikhsan",
-  publisher: "Bayu Maulana Ikhsan",
+  creator: "Berkat Selamat Daeli",
+  publisher: "Berkat Selamat Daeli",
   language: "id",
   geo: {
     country: "ID",
@@ -54,8 +54,8 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: `${baseUrlMeta}images/profile_2.jpg`,
-        alt: "Bayu Maulana Ikhsan",
+        url: `${baseUrlMeta}images/Foto Profile.jpeg`,
+        alt: "Berkat Selamat Daeli",
       },
       {
         url: `${baseUrlMeta}images/project/cekresi/1.png`,
@@ -67,15 +67,15 @@ export const metadata = {
       },
     ],
     description:
-      "Bayu Maulana Ikhsan is a web developer with 2 years of experience.",
-    author: "Bayu Maulana Ikhsan",
+      "Berkat Selamat Daeli is a web developer with 2 years of experience.",
+    author: "Berkat Selamat Daeli",
   },
   basic: {
-    title: "Bayu Maulana Ikhsan - Fullstack Engineer",
+    title: "Berkat Selamat Daeli - Backend Developer",
     type: "website",
     image: {
       url: `${baseUrlMeta}images/profile_2.jpg`,
-      alt: "Bayu Maulana Ikhsan",
+      alt: "Berkat Selamat Daeli",
     },
   },
 };

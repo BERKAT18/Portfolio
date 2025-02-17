@@ -35,36 +35,40 @@ export const links = [
 ] as const;
 export const experiencesData = [
   {
-    title: "Web Programmer",
-    location: "BKAD Kabupaten Sleman",
-    description:
-      "Developing and overcoming user problems of Sistem Informasi Keuangan Daerah (SIKD) and Sistem Pengajuan Surat Rekening (SPSR) related to applicable policies of Sleman including, troubleshooting, disaster recovery planning & execution.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Jan 2023 - Present",
-  },
-  {
-    title: "Software Engineer",
-    location: "PT Mandala Dwipantara Proteksi",
-    description:
-      "Developing and overcoming user problems of NRE-CORE related to applicable policies of PT. Reasuransi Nasional Indonesia including, troubleshooting, disaster recovery planning & execution.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Mar 2022 - Des 2022",
-  },
-  {
-    title: "Programmer with Kampus Merdeka",
-    location: "PT. Time Excelindo",
-    description:
-      "Develop features in HR TOOLS, including: fixing bugs, developing attendance with shifts and distances, applying for leave and overtime permits, and developing employee assessments",
-    icon: React.createElement(CgWorkAlt),
-    date: "Aug 2021 - Feb 2022",
-  },
-  {
     title: "Internship Back End Developer",
-    location: "PT Zeniora Edukasi Teknologi",
+    location: "PT. Inti Utama Solusindo",
     description:
-      "Contribute to the development, fixing bugs, discussion about the new fiture in website.",
+      "Responsible for designing, developing, and managing APIs and business logic on the server side. The main focus is on improving system performance and scalability, ensuring efficient integration between backend services, and supporting web application development with database optimization for better technology solutions.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jul 2021 - Sep 2021",
+    date: "Feb 2024 - Jun 2024",
+  },
+  {
+    title: "Assistant Lecturer of Statistics",
+    location: "Universitas Kristen Immanuel",
+    description: "As an Assistant Lecturer of Statistics at the Informatics Study Program, Immanuel Christian University, he is tasked with creating statistics practicum modules, assisting lecturers during practicum, and collecting and correcting student assignments. In addition, it also compiles reports on activities that have been carried out to support the smooth learning process.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep 2023 - Des 2023",
+  },
+  {
+    title: "Members of the Public Relations Division",
+    location: "Universitas Kristen Immanuel",
+    description: "As a member of the Public Relations Division in the Student Senate of the Faculty of Science and Computers, Immanuel Christian University, he is responsible as a coordinator for several activities carried out by the FISKOM Senate. In addition, building relationships with other student organizations, campus agencies, and external parties, as well as inviting speakers, guests, or cooperation partners for senate events. Also involved in licensing management and coordination with the campus regarding activities that require permits.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2022 - Aug 2023",
+  },
+  {
+    title: "Members of the Spiritual Division",
+    location: "Universitas Kristen Immanuel",
+    description: "As a member of the Spiritual Division at the Family Bidik-MISI of Immanuel Christian University, he is responsible for preparing for the end-of-month worship service every month as well as being responsible for several jobdesc. Actively involved in being the coordinator of the implementation of several activities such as social activities, Christmas Easter and others",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2022 - Aug 2023",
+  },
+  {
+    title: "Assistant Lecturer of Algorithms and Programming",
+    location: "Universitas Kristen Immanuel",
+    description: "As an Assistant Lecturer of Algorithms and Programming in the Informatics Study Program of Immanuel Christian University, he is responsible for studying the learning modules given by lecturers, teaching and supervising algorithm and programming practicum activities, as well as collecting and correcting student assignments and exercises. Also compile reports on activities that have been carried out.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2023 - Jun 2023",
   },
 ] as const;
 
@@ -73,20 +77,9 @@ export const projectsData = [
     title: "Sistem Informasi Logistik CGN",
     description:
       "The CGN Logistics Information System is a digital platform that integrates inventory management, inventory control, delivery monitoring, and logistics performance analysis to maximize the efficiency of CGN's logistics operations. The system also provides high security and an intuitive user interface.",
-    screenshots: [
-      "images/project/cekresi/1.png",
-      "images/project/cekresi/3.png",
-      "images/project/cekresi/4.png",
-      "images/project/cekresi/2.png",
-      "images/project/cekresi/6.png",
-    ],
+    screenshots: ["images/project/cekresi/1.png", "images/project/cekresi/3.png", "images/project/cekresi/4.png", "images/project/cekresi/2.png", "images/project/cekresi/6.png"],
     image: "images/project/cekresi/1.png",
-    tech: [
-      "/images/icon/bootstrap.svg",
-      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
-      "/images/icon/jquery-vertical.svg",
-      "/images/icon/mysql.svg",
-    ],
+    tech: ["/images/icon/bootstrap.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg", "/images/icon/jquery-vertical.svg", "/images/icon/mysql.svg"],
     demoUrl: null,
     githubUrl: null,
     features: [
@@ -110,12 +103,7 @@ export const projectsData = [
       "images/project/ikanme/6.png",
     ],
     image: "images/project/ikanme/1.png",
-    tech: [
-      "/images/icon/bootstrap.svg",
-      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
-      "/images/icon/jquery-vertical.svg",
-      "/images/icon/mysql.svg",
-    ],
+    tech: ["/images/icon/bootstrap.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg", "/images/icon/jquery-vertical.svg", "/images/icon/mysql.svg"],
     demoUrl: null,
     githubUrl: null,
     features: [
@@ -129,19 +117,9 @@ export const projectsData = [
     title: "Match Schedule MPL Indonesia",
     description:
       "This website is a demonstration of a clone that imitates the appearance and features of the official MPL Indonesia website. It provides information similar to the actual MPL Indonesia website, including match schedules, team listings, and standings.",
-    screenshots: [
-      "images/project/mpl/2.png",
-      "images/project/mpl/3.png",
-      "images/project/mpl/4.png",
-      "images/project/mpl/5.png",
-    ],
+    screenshots: ["images/project/mpl/2.png", "images/project/mpl/3.png", "images/project/mpl/4.png", "images/project/mpl/5.png"],
     image: "images/project/mpl/1.png",
-    tech: [
-      "/images/icon/next-js.svg",
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-      "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
-      "/images/icon/framer-motion.svg",
-    ],
+    tech: ["/images/icon/next-js.svg", "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg", "/images/icon/framer-motion.svg"],
     demoUrl: "https://mpl-id.vercel.app/",
     githubUrl: "https://github.com/Bayumaul/mpl-id-next",
     features: [
@@ -154,22 +132,10 @@ export const projectsData = [
   },
   {
     title: "SIAKAD SDN Tegalrandu",
-    description:
-      "This is a web-based application about creating report students, crud kelas, crud mata pelajaran, crud siswa, crud nilai students to report with kurikulum 2013",
-    screenshots: [
-      "images/project/siakad/2.png",
-      "images/project/siakad/3.png",
-      "images/project/siakad/4.png",
-      "images/project/siakad/5.png",
-      "images/project/siakad/7.png",
-    ],
+    description: "This is a web-based application about creating report students, crud kelas, crud mata pelajaran, crud siswa, crud nilai students to report with kurikulum 2013",
+    screenshots: ["images/project/siakad/2.png", "images/project/siakad/3.png", "images/project/siakad/4.png", "images/project/siakad/5.png", "images/project/siakad/7.png"],
     image: "images/project/siakad/1.png",
-    tech: [
-      "/images/icon/bootstrap.svg",
-      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
-      "/images/icon/jquery-vertical.svg",
-      "/images/icon/mysql.svg",
-    ],
+    tech: ["/images/icon/bootstrap.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg", "/images/icon/jquery-vertical.svg", "/images/icon/mysql.svg"],
     demoUrl: null,
     githubUrl: null,
     features: [
@@ -185,49 +151,21 @@ export const projectsData = [
   },
   {
     title: "Wartafeno",
-    description:
-      "Wartafeno is a website that is used to convey news from the LPMT Fenomena of UNY, this website was made using wordpress and elementor and mysql database.",
-    screenshots: [
-      "images/project/wartefeno/2.png",
-      "images/project/wartefeno/3.png",
-      "images/project/wartefeno/4.png",
-      "images/project/wartefeno/5.png",
-    ],
+    description: "Wartafeno is a website that is used to convey news from the LPMT Fenomena of UNY, this website was made using wordpress and elementor and mysql database.",
+    screenshots: ["images/project/wartefeno/2.png", "images/project/wartefeno/3.png", "images/project/wartefeno/4.png", "images/project/wartefeno/5.png"],
     image: "images/project/wartefeno/1.png",
-    tech: [
-      "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg",
-      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Elementor_icon.svg",
-      "/images/icon/mysql.svg",
-    ],
+    tech: ["https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg", "https://upload.wikimedia.org/wikipedia/commons/8/8a/Elementor_icon.svg", "/images/icon/mysql.svg"],
     demoUrl: "https://wartafeno.com/",
     githubUrl: null,
-    features: [
-      "Redesign with new theme and design.",
-      "Fixed some bug searching.",
-      "Add Dark Mode.",
-      "Added an author page to see which authors have written any articles.",
-    ],
+    features: ["Redesign with new theme and design.", "Fixed some bug searching.", "Add Dark Mode.", "Added an author page to see which authors have written any articles."],
     languages: ["Wordpress", "MYSQL", "Elementor"],
   },
   {
     title: "HR-TOOLS",
-    description:
-      "This is HR TOOLS which is used to manage employee data, starting from personal data, employee performance appraisal work to the attendance system.",
+    description: "This is HR TOOLS which is used to manage employee data, starting from personal data, employee performance appraisal work to the attendance system.",
     image: "images/project/hr-tools/1.png",
-    screenshots: [
-      "images/project/hr-tools/2.png",
-      "images/project/hr-tools/3.png",
-      "images/project/hr-tools/4.png",
-      "images/project/hr-tools/5.png",
-      "images/project/hr-tools/6.png",
-    ],
-    tech: [
-      "/images/icon/bootstrap.svg",
-      "/images/icon/leaflet.svg",
-      "/images/icon/codeigniter.svg",
-      "/images/icon/jquery-vertical.svg",
-      "/images/icon/mysql.svg",
-    ],
+    screenshots: ["images/project/hr-tools/2.png", "images/project/hr-tools/3.png", "images/project/hr-tools/4.png", "images/project/hr-tools/5.png", "images/project/hr-tools/6.png"],
+    tech: ["/images/icon/bootstrap.svg", "/images/icon/leaflet.svg", "/images/icon/codeigniter.svg", "/images/icon/jquery-vertical.svg", "/images/icon/mysql.svg"],
     demoUrl: null,
     githubUrl: null,
     features: [
@@ -244,13 +182,11 @@ export const skillsData = [
   "HTML",
   "CSS",
   "PHP",
-  "JavaScript",
-  "TypeScript",
-  "Tailwind",
-  "Bootstrap",
-  "Codeigneter",
+  "Java",
+  "Microsoft Office",
+  "Django",
+  "Python",
   "Laravel",
-  "React",
   "MYSQL",
   "Git",
   // "Framer Motion",
@@ -259,8 +195,7 @@ export const skillsData = [
 export const skilss = [
   {
     id: 2,
-    imgUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+    imgUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
   },
   {
     id: 3,
@@ -276,7 +211,7 @@ export const skilss = [
   },
   {
     id: 5,
-    imgUrl: "/images/icon/codeigniter.svg",
+    imgUrl: "https://static.djangoproject.com/img/logos/django-logo-negative.svg",
   },
   {
     id: 7,
@@ -285,20 +220,19 @@ export const skilss = [
 
   {
     id: 9,
-    imgUrl: "/images/icon/typescript.svg",
+    imgUrl: "https://www.vectorlogo.zone/logos/w3_css/w3_css-official.svg",
   },
   {
     id: 10,
-    imgUrl: "/images/icon/javascript.svg",
+    imgUrl: "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
   },
   {
     id: 1,
-    imgUrl: "/images/icon/jquery-vertical.svg",
+    imgUrl: "/images/icon/java_logo.svg",
   },
   {
     id: 6,
-    imgUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    imgUrl: "/images/icon/icons8-microsoft-office-2019-480.svg",
   },
   // {
   //   id: 10,
