@@ -74,11 +74,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Sistem Informasi Logistik CGN",
+    title: "Healthy One",
     description:
       "The CGN Logistics Information System is a digital platform that integrates inventory management, inventory control, delivery monitoring, and logistics performance analysis to maximize the efficiency of CGN's logistics operations. The system also provides high security and an intuitive user interface.",
-    screenshots: ["images/project/cekresi/1.png", "images/project/cekresi/3.png", "images/project/cekresi/4.png", "images/project/cekresi/2.png", "images/project/cekresi/6.png"],
-    image: "images/project/cekresi/1.png",
+    screenshots: ["images/project/healthyone/logo.png", "images/project/healthyone/dashboard.png", "images/project/healthyone/satusehat.png"],
+    image: "images/project/healthyone/logo.png",
     tech: ["/images/icon/bootstrap.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg", "/images/icon/jquery-vertical.svg", "/images/icon/mysql.svg"],
     demoUrl: null,
     githubUrl: null,
@@ -88,21 +88,20 @@ export const projectsData = [
       "Delivery Monitoring: Offers real-time visibility into logistics, enabling proactive responses to ensure timely deliveries.",
       "Performance Analysis: Utilizes powerful analytics to gain insights, identify improvements, and enhance operational efficiency.",
     ],
-    languages: ["Laravel 10", "Bootstrap 5", "MYSQL 8.0", "Jquery"],
+    languages: ["Python", "Django", "MYSQL", "Flutter"],
   },
   {
-    title: "E-Commerce Ikan Me",
+    title: "Website Profile Dereja Dan Pengelolaan Data Jemaat",
     description:
       "This website is an innovative platform designed to assist freshwater fishermen and fish farmers in the village of Berasan Mulya in marketing their products online. We are dedicated to supporting the local economy and the conservation of natural resources.",
     screenshots: [
-      "images/project/ikanme/1.png",
-      "images/project/ikanme/2.png",
-      "images/project/ikanme/3.png",
-      "images/project/ikanme/4.png",
-      // "images/project/ikanme/5.png",
-      "images/project/ikanme/6.png",
+      "images/project/webgereja/media.png",
+      "images/project/webgereja/renungan2.png",
+      "images/project/webgereja/renungan.png",
+      "images/project/webgereja/lokasi.png",
+      "images/project/webgereja/admin.png",
     ],
-    image: "images/project/ikanme/1.png",
+    image: "images/project/webgereja/1.png",
     tech: ["/images/icon/bootstrap.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg", "/images/icon/jquery-vertical.svg", "/images/icon/mysql.svg"],
     demoUrl: null,
     githubUrl: null,
@@ -111,14 +110,14 @@ export const projectsData = [
       "Buy and Sell: Enables users to easily buy and sell freshwater products, fostering a vibrant online marketplace that connects local producers with consumers.",
       "Shipping and Delivery: Facilitates a streamlined shipping process, allowing sellers to arrange for the efficient and timely delivery of their products to customers.",
     ],
-    languages: ["Laravel 9", "Bootstrap 5", "MYSQL 8.0", "Jquery"],
+    languages: ["Python", "Django", "MYSQL", "HTML", "CSS", "Javascript"],
   },
   {
-    title: "Match Schedule MPL Indonesia",
+    title: "E-Commerce",
     description:
       "This website is a demonstration of a clone that imitates the appearance and features of the official MPL Indonesia website. It provides information similar to the actual MPL Indonesia website, including match schedules, team listings, and standings.",
-    screenshots: ["images/project/mpl/2.png", "images/project/mpl/3.png", "images/project/mpl/4.png", "images/project/mpl/5.png"],
-    image: "images/project/mpl/1.png",
+    screenshots: [ "images/project/penjualan/menu.png",  "images/project/penjualan/pembayaran.png",  "images/project/penjualan/struk.png",  "images/project/penjualan/penjualan.png"],
+    image: "images/project/penjualan/1.png",
     tech: ["/images/icon/next-js.svg", "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg", "/images/icon/framer-motion.svg"],
     demoUrl: "https://mpl-id.vercel.app/",
     githubUrl: "https://github.com/Bayumaul/mpl-id-next",

@@ -1,6 +1,6 @@
 {
-  "name": "portofolio-bayumaul",
-  "author": "Bayu Maulana Ikhsan <bayu.maulanaikhsan123@gmail.com>",
+  "name": "portofolio-berkatdaeli",
+  "author": "Berkat Selamat Daeli <berkatselamatdaeli18@gmail.com>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "@vercel/speed-insights": "^1.0.2",
     "autoprefixer": "10.4.14",
     "clsx": "^2.0.0",
+    "dotenv": "^16.4.7",
     "framer-motion": "^10.15.0",
     "next": "13.4.12",
     "postcss": "8.4.27",

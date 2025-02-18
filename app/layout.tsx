@@ -10,9 +10,9 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
-const baseUrlMeta = `${new URL("https://bayumaulanaikhsan.my.id/")}`;
+const baseUrlMeta = `${new URL("https://portfolio-gamma-wine-47.vercel.app/")}`;
 export const metadata = {
-  metadataBase: new URL("https://bayumaulanaikhsan.my.id/"),
+  metadataBase: new URL("https://portfolio-gamma-wine-47.vercel.app/"),
   title: "Berkat Selamat Daeli | Portfolio",
   description:
     "Berkat Selamat Daeli is a web developer with 2 years of experience.",
